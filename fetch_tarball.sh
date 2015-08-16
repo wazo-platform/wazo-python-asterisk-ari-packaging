@@ -28,4 +28,4 @@ wget -nv -O "${FILENAME}" "${URL}"
 tar xf "${FILENAME}"
 
 cd ..
-rsync -av "tmp/ari-${VERSION}/" .
+rsync -av "tmp/ari-py-${VERSION}/" .
