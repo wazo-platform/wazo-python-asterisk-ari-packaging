@@ -18,7 +18,7 @@ set -e
 
 VERSION=$(cat VERSION)
 FILENAME="python-asterisk-api_${VERSION}.orig.tar.gz"
-URL="https://github.com/asterisk/ari-py/archive/${VERSION}.tar.gz"
+URL="https://github.com/xivo-pbx/ari-py/archive/${VERSION}.tar.gz"
 
 rm -rf tmp
 mkdir tmp
