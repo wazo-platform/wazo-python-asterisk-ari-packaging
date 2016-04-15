@@ -10,6 +10,6 @@ Homepage: https://github.com/asterisk/ari-py
 
 Package: python-asterisk-ari
 Architecture: all
-Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}
+Depends: ${python:Depends}, ${misc:Depends}, python-swaggerpy
 Description: Python library for asterisk ARI interface
  .

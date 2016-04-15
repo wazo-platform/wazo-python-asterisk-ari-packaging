@@ -1,4 +1,4 @@
-xivo-python-asterisk-ari-packaging (0.1.3-1~xivo3) xivo-dev; urgency=medium
+xivo-python-asterisk-ari-packaging (0.1.3-1~xivo4) xivo-dev; urgency=medium
 
   * Use xivo-pbx fork
 
