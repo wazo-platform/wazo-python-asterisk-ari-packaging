@@ -1,3 +1,9 @@
+xivo-python-asterisk-ari-packaging (0.2.2) xivo-dev; urgency=medium
+
+  * Update to 0.2.2
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Thu, 09 Jun 2016 16:15:08 -0400
+
 xivo-python-asterisk-ari-packaging (0.2.0) xivo-dev; urgency=medium
 
   * Update to 0.2.0
