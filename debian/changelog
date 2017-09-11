@@ -1,3 +1,9 @@
+xivo-python-asterisk-ari-packaging (0.3.0-1) wazo-dev; urgency=medium
+
+  * Update to 0.3.0
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Mon, 11 Sep 2017 13:57:11 -0400
+
 xivo-python-asterisk-ari-packaging (0.2.2-1) wazo-dev; urgency=medium
 
   * Replace xivo with wazo
