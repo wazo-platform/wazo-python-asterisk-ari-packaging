@@ -6,9 +6,16 @@
 PKG = $(word 2,$(shell dpkg-parsechangelog | grep Source))
 VERSION ?= $(shell cat VERSION)
 DOWNLOAD_URL = "https://github.com/wazo-pbx/ari-py/archive/${VERSION}.tar.gz"
+export PYBUILD_NAME=ari
+export PYBUILD_DISABLE=test
+export PYBUILD_SYSTEM=distutils
 
 %:
-	dh $@ --with python2
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+
+override_dh_auto_clean:
+	if [ -f setup.py ]; then dh_auto_clean; fi
 
 .PHONY: get-orig-source
 
