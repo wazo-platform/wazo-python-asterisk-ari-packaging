@@ -1,9 +1,22 @@
-# The packaging information for python asterisk ari in Wazo
+# xivo-python-asterisk-ari-packaging
 
-This repository contains the packaging information for
-[python-ari](https://github.com/asterisk/ari-py).
+Debian packaging for [ari-py](https://github.com/asterisk/ari-py) used in Wazo.
 
-To get a new version of python-ari in the Wazo repository, set the
-desired version in the `VERSION` file and increment the changelog.
+## Upgrading
 
-[Jenkins](jenkins.wazo.community) will then retrieve and build the new version.
+To upgrade ari-py:
+
+* Update the version number in the `VERSION` file
+* Update the changelog using `dch -i` to the matching version
+* Push the changes
+
+## Building Locally
+
+To build on a test environment before submitting a change to production the following procedure can be used.
+
+```sh
+make -f debian/rules get-orig-source
+tar -xvf ../xivo-python-asterisk-ari-packaging_*.orig.tar.gz --strip 1
+dpkg-buildpackage -us -uc
+```
+The `.deb` will be located in the parent directory.
