@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: python-threadpool
+Upstream-Name: python-asterisk-ari
 Source: https://github.com/asterisk/ari-py/releases
 
 Files: *
@@ -22,7 +22,5 @@ are met:
 	software without specific prior written permission.
 
 Files: debian/*
-License: GPL-3
-
-Files: fetch_tarball.sh
+Copyright: 2015-2018 The Wazo Authors  (see the AUTHORS file)
 License: GPL-3
