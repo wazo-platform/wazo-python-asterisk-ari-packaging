@@ -2,6 +2,11 @@
 
 Debian packaging for [ari-py](https://github.com/asterisk/ari-py) used in Wazo.
 
+## Reason
+
+* Not packaged by Debian
+* Needed by wazo-calld
+
 ## Upgrading
 
 To upgrade ari-py:
