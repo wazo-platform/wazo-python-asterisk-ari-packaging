@@ -1,3 +1,9 @@
+wazo-python-asterisk-ari-packaging (0.4.0-4) wazo-dev-buster; urgency=medium
+
+  * rebuild
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 29 Jan 2020 12:11:42 +0100
+
 wazo-python-asterisk-ari-packaging (0.4.0-3) wazo-dev-buster; urgency=medium
 
   * change wazo-pbx to wazo-platform
