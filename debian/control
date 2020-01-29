@@ -22,7 +22,8 @@ Depends:
  python-six
 Description: Python library for asterisk ARI interface
  .
-
+ Library for accessing the Asterisk REST Interface 
+ 
 Package: python3-asterisk-ari
 Architecture: all
 Depends:
@@ -32,3 +33,4 @@ Depends:
  python3-six
 Description: Python library for asterisk ARI interface - Python 3
  .
+ Library for accessing the Asterisk REST Interface
