@@ -1,3 +1,9 @@
+wazo-python-asterisk-ari-packaging (0.5.0-1) wazo-dev-buster; urgency=medium
+
+  *  update to 0.5.0
+
+ -- Wazo Maintainers <dev@wazo.community>  Fri, 18 Jun 2021 15:39:21 -0400
+
 wazo-python-asterisk-ari-packaging (0.4.0-4) wazo-dev-buster; urgency=medium
 
   * rebuild
