@@ -1,29 +1,15 @@
 Source: wazo-python-asterisk-ari-packaging
 Section: python
-Priority: extra
+Priority: optional
 Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends:
- debhelper (>= 9),
+ debhelper (>= 12),
  dh-python,
- python-all (>= 2.7),
- python-setuptools,
  python3-all,
  python3-setuptools
 Standards-Version: 3.9.6
-X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.5
 
-Package: python-asterisk-ari
-Architecture: all
-Depends:
- ${python:Depends},
- ${misc:Depends},
- python-swaggerpy,
- python-six
-Description: Python library for asterisk ARI interface
- .
- Library for accessing the Asterisk REST Interface 
- 
 Package: python3-asterisk-ari
 Architecture: all
 Depends:
@@ -32,5 +18,5 @@ Depends:
  python3-swaggerpy,
  python3-six
 Description: Python library for asterisk ARI interface - Python 3
- .
  Library for accessing the Asterisk REST Interface
+ .
