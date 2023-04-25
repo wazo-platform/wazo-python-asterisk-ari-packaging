@@ -1,3 +1,7 @@
-- project:
-    templates:
-      - debian-packaging-bullseye
+- job:
+    name: debian-packaging-bullseye-test
+    run: playbooks/debian-packaging-test/run.yaml
+    provides: repo
+    nodeset: vm-debian-11-m1s
+    required-projects:
+      - wazo-platform/xivo-ci
