@@ -1,3 +1,24 @@
+- job:
+    name: debian-packaging-bullseye-test
+    run: zuul.d/playbooks/debian-packaging-test/run.yaml
+    provides: repo
+    nodeset: vm-debian-11-m1s
+    required-projects:
+      - wazo-platform/xivo-ci
+
+- project-template:
+    name: debian-packaging-bullseye-test
+    description: Project template to build Debian Bullseye packages
+    check:
+      jobs:
+        - debian-packaging-bullseye-test
+    gate:
+      jobs:
+        - debian-packaging-bullseye-test
+    auto-merge:
+      jobs:
+        - noop
+
 - project:
     templates:
-      - debian-packaging-bullseye
+      - debian-packaging-bullseye-test
