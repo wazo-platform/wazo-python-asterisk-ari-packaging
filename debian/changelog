@@ -1,3 +1,9 @@
+wazo-python-asterisk-ari-packaging (0.6.0-4) wazo-dev-bullseye; urgency=medium
+
+  * update zuul config
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Mon, 24 Apr 2023 09:24:51 -0400
+
 wazo-python-asterisk-ari-packaging (0.6.0-3) wazo-dev-bullseye; urgency=medium
 
   * rebuild for Bullseye
