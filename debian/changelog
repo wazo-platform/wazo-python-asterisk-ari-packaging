@@ -1,3 +1,9 @@
+wazo-python-asterisk-ari-packaging (0.7.0-1) wazo-dev-bullseye; urgency=medium
+
+  * add ARIUnprocessable exception
+
+ -- Wazo Maintainers <dev@wazo.community>  Tue, 23 Apr 2024 15:46:42 +0200
+
 wazo-python-asterisk-ari-packaging (0.6.0-4) wazo-dev-bullseye; urgency=medium
 
   * update zuul config
