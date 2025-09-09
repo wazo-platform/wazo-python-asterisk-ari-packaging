@@ -1,3 +1,9 @@
+wazo-python-asterisk-ari-packaging (0.7.0-2) wazo-dev-bookworm; urgency=medium
+
+  * Rebuild for Bookworm
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 09 Sep 2025 11:27:42 -0400
+
 wazo-python-asterisk-ari-packaging (0.7.0-1) wazo-dev-bullseye; urgency=medium
 
   * add ARIUnprocessable exception
